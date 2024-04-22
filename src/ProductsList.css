@@ -1,0 +1,17 @@
+.sort-by-select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .pagination button {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .pagination span {
+    font-weight: bold;
+  }
+  

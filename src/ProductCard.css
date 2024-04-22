@@ -1,0 +1,35 @@
+    .product-card {
+        width: calc(100% / 3);
+        height: 1720px;
+        margin-bottom: 20px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #333;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+        .product-card {
+        width: calc(100% / 2); 
+        height: 400px;
+        }
+    }
+    
+    .product-image {
+        object-fit: cover;
+    }
+    
+    
+    .product-info {
+        padding: 10px 0;
+    }
+    
+    .product-title {
+        font-weight: bold;
+    }
+    
+    .product-price {
+        color: #888;
+    }
